@@ -3,6 +3,8 @@
   "version": "1.21.1",
   "private": true,
   "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
     "jest-mock-axios": "^3.1.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -11,7 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest --watchAll",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -29,7 +31,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "jest": "^24.9.0"
-  }
+  "devDependencies": {}
 }
