@@ -20,12 +20,12 @@ function App() {
 
   return (
     <Body style={{
-      background: theme === 'dark' ? '#000' : '#fff',
-      color: theme === 'dark' ? '#fff' : '#000'
+      background: theme === 'dark' ? 'black' : 'white',
+      color: theme === 'dark' ? 'white' : 'black'
     }}>
-      <Header>
+      <Header data-testid="header">
         <h1>Player Database</h1>
-        <button onClick = {toggleTheme}>Light Switch</button>
+        <button onClick = {toggleTheme} data-testid="toggle-theme-btn">Light Switch</button>
       </Header>
       <Players />
     </Body>
