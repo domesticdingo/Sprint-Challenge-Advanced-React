@@ -5,7 +5,7 @@ const Div = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
-border: 1px solid black;
+border: 1px solid lightgrey;
 width: 200px;
 max-width: 200px;
 padding: 20px;
